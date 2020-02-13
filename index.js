@@ -2,7 +2,7 @@ var noOfDrums = document.querySelectorAll('.drum').length;
 // console.log(noOfDrums); // total number of drums
 for(var i = 0; i<noOfDrums; i++){
 
-  document.querySelectorAll('.drum')[i].addEventListener("click", function() {
+document.querySelectorAll('.drum')[i].addEventListener("click", function() {
     // alert('I got clicked');
     // playing audio
     // console.log(this.innerHTML);
